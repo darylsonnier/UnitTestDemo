@@ -46,5 +46,15 @@ namespace UnitTestDemo.Tests
             double quo = calc.Div(6, 3);
             Assert.AreEqual(quo, 2);
         }
+
+        [TestMethod()]
+        public void DivByZeroTest()
+        {
+            Calculator calc = new Calculator();
+            // Quotient of 6 and 0 is undefined.
+            double quo = calc.Div(6, 0);
+            Assert.AreEqual(quo, double.PositiveInfinity);
+        }
+
     }
 }

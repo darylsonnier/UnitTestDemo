@@ -6,6 +6,5 @@ c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\Microsoft.VisualStudio.Q
 c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.exe
 c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.pdb
 c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.exe.config
-c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.csproj.CopyComplete
 c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.dll
 c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.pdb
