@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e3f03cc5-58c7-477b-aa97-e2d14c3c2425" name="Daryl@OMEGA 2021-11-15 07:38:40" runUser="Omega\Daryl" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-11-15T07:38:40.0805849-06:00" queuing="2021-11-15T07:38:40.0805849-06:00" start="2021-11-15T07:38:39.6845965-06:00" finish="2021-11-15T07:38:40.0985853-06:00" />
+  <TestSettings name="default" id="1c20150b-f3ff-4911-866d-2c628c6ac18b">
+    <Deployment runDeploymentRoot="Daryl_OMEGA_2021-11-15_07_38_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="db591cd9-fa46-4586-b2a9-9cb13780c0ac" testId="24e9dc59-e19f-108c-6160-30b027d4cac6" testName="DivTest" computerName="OMEGA" duration="00:00:00.0000945" startTime="2021-11-15T07:38:40.0685950-06:00" endTime="2021-11-15T07:38:40.0685950-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db591cd9-fa46-4586-b2a9-9cb13780c0ac" />
+    <UnitTestResult executionId="67cdb452-4ce1-478c-967b-cecda236fa71" testId="52e0582d-0e9a-a8a5-8061-f6ae4cf4021f" testName="SumTest" computerName="OMEGA" duration="00:00:00.0509055" startTime="2021-11-15T07:38:39.9095996-06:00" endTime="2021-11-15T07:38:40.0615956-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67cdb452-4ce1-478c-967b-cecda236fa71">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-2&gt;. Actual:&lt;6&gt;. </Message>
+          <StackTrace>   at UnitTestDemo.Tests.CalculatorTests.SumTest() in c:\projects\c#\UnitTestDemo\UnitTestDemoTests\CalculatorTests.cs:line 19&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29ee7350-19dc-4c3e-9281-b6a57ca4ed34" testId="ff4671bf-a858-db21-ef65-f7622a888914" testName="SubTest" computerName="OMEGA" duration="00:00:00.0001084" startTime="2021-11-15T07:38:40.0675950-06:00" endTime="2021-11-15T07:38:40.0685950-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29ee7350-19dc-4c3e-9281-b6a57ca4ed34" />
+    <UnitTestResult executionId="5d209029-398e-4973-bc6f-925697d2062c" testId="bbaf36b7-8865-b201-4e58-22c60589b3c4" testName="MulTest" computerName="OMEGA" duration="00:00:00.0000983" startTime="2021-11-15T07:38:40.0685950-06:00" endTime="2021-11-15T07:38:40.0685950-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d209029-398e-4973-bc6f-925697d2062c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DivTest" storage="c:\projects\c#\unittestdemo\unittestdemotests\bin\debug\unittestdemotests.dll" id="24e9dc59-e19f-108c-6160-30b027d4cac6">
+      <Execution id="db591cd9-fa46-4586-b2a9-9cb13780c0ac" />
+      <TestMethod codeBase="C:\Projects\C#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.dll" adapterTypeName="executor://mstestadapter/v1" className="UnitTestDemo.Tests.CalculatorTests" name="DivTest" />
+    </UnitTest>
+    <UnitTest name="SumTest" storage="c:\projects\c#\unittestdemo\unittestdemotests\bin\debug\unittestdemotests.dll" id="52e0582d-0e9a-a8a5-8061-f6ae4cf4021f">
+      <Execution id="67cdb452-4ce1-478c-967b-cecda236fa71" />
+      <TestMethod codeBase="C:\Projects\C#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.dll" adapterTypeName="executor://mstestadapter/v1" className="UnitTestDemo.Tests.CalculatorTests" name="SumTest" />
+    </UnitTest>
+    <UnitTest name="MulTest" storage="c:\projects\c#\unittestdemo\unittestdemotests\bin\debug\unittestdemotests.dll" id="bbaf36b7-8865-b201-4e58-22c60589b3c4">
+      <Execution id="5d209029-398e-4973-bc6f-925697d2062c" />
+      <TestMethod codeBase="C:\Projects\C#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.dll" adapterTypeName="executor://mstestadapter/v1" className="UnitTestDemo.Tests.CalculatorTests" name="MulTest" />
+    </UnitTest>
+    <UnitTest name="SubTest" storage="c:\projects\c#\unittestdemo\unittestdemotests\bin\debug\unittestdemotests.dll" id="ff4671bf-a858-db21-ef65-f7622a888914">
+      <Execution id="29ee7350-19dc-4c3e-9281-b6a57ca4ed34" />
+      <TestMethod codeBase="C:\Projects\C#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.dll" adapterTypeName="executor://mstestadapter/v1" className="UnitTestDemo.Tests.CalculatorTests" name="SubTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="24e9dc59-e19f-108c-6160-30b027d4cac6" executionId="db591cd9-fa46-4586-b2a9-9cb13780c0ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52e0582d-0e9a-a8a5-8061-f6ae4cf4021f" executionId="67cdb452-4ce1-478c-967b-cecda236fa71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff4671bf-a858-db21-ef65-f7622a888914" executionId="29ee7350-19dc-4c3e-9281-b6a57ca4ed34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbaf36b7-8865-b201-4e58-22c60589b3c4" executionId="5d209029-398e-4973-bc6f-925697d2062c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

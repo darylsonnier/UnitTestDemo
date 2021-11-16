@@ -1,0 +1,11 @@
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.csproj.AssemblyReference.cache
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.csproj.CoreCompileInputs.cache
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.dll
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemoTests.pdb
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.exe
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.pdb
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\bin\Debug\UnitTestDemo.exe.config
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.csproj.CopyComplete
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.dll
+c:\projects\c#\UnitTestDemo\UnitTestDemoTests\obj\Debug\UnitTestDemoTests.pdb
