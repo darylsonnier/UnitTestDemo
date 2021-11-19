@@ -18,7 +18,7 @@ namespace UnitTestDemo
         // Intentional error in Sum method
         public double Sum(double a, double b)
         {
-            return a + b;
+            return a + b; 
         }
 
         // Method works properly
